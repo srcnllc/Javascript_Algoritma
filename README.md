@@ -1,8 +1,8 @@
 # Javascript_Algoritma
 Javascript ile yazmış olduğum algoritmalar <br>
--Klavyeden girilen sayının tek-çift olduğunu bulma,
--İkinci dereceden bir denklemin köklerini hesaplama,
--Klavyeden girilen bir sayının asal olup olmadığını bulma,
+-Klavyeden girilen sayının tek-çift olduğunu bulma, <br>
+-İkinci dereceden bir denklemin köklerini hesaplama, <br>
+-Klavyeden girilen bir sayının asal olup olmadığını bulma, <br>
 -Klavyeden girilen bir sayının faktöriyelini hesaplama,
 -Klavyeden girilen 2 sayının obeb değerini bulma,
 -Klavyeden girilen iki sayının karşılaştırılması,

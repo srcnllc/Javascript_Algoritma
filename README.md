@@ -1,5 +1,5 @@
 # Javascript_Algoritma
-Javascript ile yazmış olduğum algoritmalar
+Javascript ile yazmış olduğum algoritmalar <br>
 -Klavyeden girilen sayının tek-çift olduğunu bulma,
 -İkinci dereceden bir denklemin köklerini hesaplama,
 -Klavyeden girilen bir sayının asal olup olmadığını bulma,

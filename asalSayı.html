@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asal Sayı</title>
+</head>
+<body>
+    <script>
+        var bs=0;
+        var x = Number(window.prompt("Bir sayı giriniz : "));
+        document.write("Girilen sayı : " + x + "<br>");
+
+        if(x==2){
+            document.write(x + " bir asal sayıdır.");
+        }else{
+            for(var i=1 ; i<= x ; i++){
+                if(x % i == 0){
+                    bs = bs+1;
+                }
+            }if(bs == 2){
+                    document.write(x + " bir asal sayıdır.");
+                }
+            else{
+                document.write(x + " bir asal sayı değildir.");
+
+            }
+        }   
+           
+    </script>
+</body>
+</html>

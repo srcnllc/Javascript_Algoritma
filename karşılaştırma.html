@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sayıların karşılaştırılması</title>
+</head>
+<body>
+
+    <script>
+        var sayibir=Number(window.prompt("Birinci sayıyı giriniz:"));
+        var sayiiki=Number(window.prompt("İkinci sayıyı giriniz:"));
+
+        document.write("Birinci sayı : " + sayibir + "<br>"); 
+        document.write("İkinci sayı : " + sayiiki + "<br>");
+
+        if(sayibir===sayiiki){
+            document.write("Sayılar eşittir.");
+        }else if( sayibir > sayiiki){
+            document.write("Sayıbir="+ sayibir + " sayıiki="+ sayiiki + " den büyüktür..")
+        }else{
+            document.write("Sayıbir="+ sayibir + " sayıiki="+ sayiiki + " den küçüktür..")
+
+        }
+
+
+    </script>
+</body>
+</html>

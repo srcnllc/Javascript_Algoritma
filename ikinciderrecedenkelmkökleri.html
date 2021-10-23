@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>denklemkökleri</title>
+</head>
+<body>
+    <script>
+        var delta,x1,x2;
+        var a =Number(window.prompt("x^2 nin katsayısını giriniz : "));
+        var b =Number(window.prompt("x in katsayısını giriniz : "));
+        var c =Number(window.prompt("Sabit sayıyı giriniz : "));
+        document.write("x^2 nin katsayısı : " + a + "<br>");
+        document.write("x'in katsayısı : " + b + "<br>");
+        document.write("Sabit sayı : " + c + "<br>");
+
+        delta = b*b - 4*a*c ;
+         if(delta>0){
+             document.write("İki farklı kök vardır." + "<br>");
+             x1 = (-b - Math.sqrt(delta))/(2*a);
+             x2 = (-b + Math.sqrt(delta))/(2*a);
+             document.write("Bu denklemin kökleri : " + x1 + " ve " + x2 + " dir.");
+         }
+         if(delta == 0){
+             document.write("Çakışık kök vardır." + "<br>");
+             x1 = (-b)/(2*a);
+             document.write("Bu denklemin kökleri : " + x1 + " dir.");
+         }
+         if(delta < 0){
+             document.write("Reel kök yoktur." + "<br>");
+         }
+    </script>
+</body>
+</html>

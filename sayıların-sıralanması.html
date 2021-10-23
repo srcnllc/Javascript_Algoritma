@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sırlama</title>
+</head>
+<body>
+    <script>
+        var t;
+        var x = Number(window.prompt("Birinci sayıyı giriniz : "));
+        var y = Number(window.prompt("İkinci sayıyı giriniz : "));
+        var z = Number(window.prompt("Üçüncü sayıyı giriniz : "));
+        document.write("Birinci sayı : " + x + "<br>");
+        document.write("İkinci sayı : " + y + "<br>");
+        document.write("Üçüncü sayı : " + z + "<br>");
+        if(x>y){
+            t=x;
+            x=y;
+            y=t;
+        }
+        if(x>z){
+            t=x;
+            x=z;
+            z=y;
+        }
+        if(y>z){
+            t=y;
+            y=z;
+            z=t;
+        }
+        document.write("Bu sayılar " +x+"<"+y+"<"+z+ " şekilinde sıralanır..." );
+
+    </script>
+</body>
+</html>

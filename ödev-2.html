@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ödev-2</title>
+</head>
+<body>
+    <script>
+        var alan;
+        var x =Number(window.prompt("Arazinin bir kenarı kaç metredir ? "));
+        var y =Number(window.prompt("Arazinin diğer kenarı kaç metredir ? "));
+        document.write("Çiftçinin arazisinin kenar uzunlukları " + x + " metreye " + y+ " metre uzunluğundadır." + "<br>"+"<br>");
+        alan = x * y ;
+        document.write("Çiftçinin arazisi " + alan +" metrekaredir"+"<br>"+"<br>");
+        if(alan>=100){
+            document.write("Çiftçinin arazisi 100 metrekare veya daha büyük olduğu için buraya domates ekilecektir." + "<br>"+"<br>");
+        }else {
+            document.write("Çiftçinin arazisi 100 metrekareden küçük olduğu için buraya patlıcan ekilecektir." + "<br>"+"<br>");
+
+        }
+    </script>
+</body>
+</html>
